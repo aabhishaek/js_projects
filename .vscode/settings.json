@@ -1,4 +1,6 @@
 {
     "explorer.autoReveal": true,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true
 }
