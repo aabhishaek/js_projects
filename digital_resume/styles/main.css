@@ -31,7 +31,7 @@ body {
     background-color: var(--mainBgColor);
 }
 
-p, li {
+p, li, span {
     color: var(--secondaryTextColor);
 }
 
@@ -97,3 +97,15 @@ li {
     color: var(--mainLinkColor);
 }
 
+.tech-stack-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+}
+
+.tech-stack-card {
+    border: 1px solid var(--mainBorderColor);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
