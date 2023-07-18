@@ -4,3 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
+
+.salary-div {
+  border: 1px solid grey;
+  display: flex;
+  padding: 20px;
+  height: 12rem;
+}

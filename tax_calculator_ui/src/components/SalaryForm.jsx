@@ -1,9 +1,10 @@
+import { Form } from "react-router-dom";
 function SalaryForm() {
   return (
-    <form>
+    <Form method='POST'>
       <div>
-        <label>Basic Salary</label>
-        <input type="number" />
+        <label htmlFor="basicSalary">Basic Salary</label>
+        <input type="number" name="basicSalary"/>
       </div>
       <div>
         <label>House Rent Allowance</label>
@@ -25,7 +26,7 @@ function SalaryForm() {
         <label>Basic Salary</label>
         <input type="number" />
       </div>
-    </form>
+    </Form>
   );
 }
 

@@ -1,4 +1,4 @@
-import classes from "./MainNavigation.css";
+import "./MainNavigation.css";
 
 function MainNavigation() {
   return (
