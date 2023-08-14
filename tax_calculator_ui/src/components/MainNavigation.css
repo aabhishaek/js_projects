@@ -1,3 +1,15 @@
 .header {
+    width: 100%;
     display: flex;
+    color: #0a2540;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.menu-items {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-size: 1.1rem;
 }

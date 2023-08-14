@@ -5,8 +5,7 @@ function MainNavigation() {
     <header className="header">
       <h1>Tax Calculator</h1>
       <nav>
-        <ul>
-          <li>About Us</li>
+        <ul className="menu-items">
         </ul>
       </nav>
     </header>
