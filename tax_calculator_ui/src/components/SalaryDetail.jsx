@@ -52,12 +52,6 @@ function SalaryDetail() {
     <Card className="detail-card">
       <h1>Totals</h1>
     </Card>
-    <Card className="detail-card">
-      <h1>Totals</h1>
-    </Card>
-    <Card className="detail-card">
-      <h1>Totals</h1>
-    </Card>
 
     </section>
   );
