@@ -6,6 +6,9 @@ function RootLayout() {
     <>
       <MainNavigation />
       <Outlet />
+      <footer>
+        Abhishek
+      </footer>
     </>
   );
 }
